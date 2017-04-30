@@ -25,6 +25,6 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.2.0'
-    // TODO (7) Remove the ConstraintLayout dependency as we aren't using it for these simple projects
+    // TODO (32) Remove the ConstraintLayout dependency as we aren't using it for these simple projects
     testCompile 'junit:junit:4.12'
 }
